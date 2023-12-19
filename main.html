@@ -99,7 +99,7 @@ canvas {
 
 <body>
   <div class="middle">
-    <h1 class="label">STC MEN COUNTDOWN
+    <h1 class="label">New Year Countdown
     </h1>
     <div class="time">
       <span>
@@ -232,8 +232,8 @@ function getTrueNumber(num) {
 }
 
 function calculateRemainingTime() {
-  const comingYear = new Date().getFullYear();
-  const comingDate = new Date(`Nov 19, ${comingYear} 00:00:00`);
+  // const comingYear = new Date().getFullYear();
+  const comingDate = new Date(`1 1, 2024 00:00:00`);
 
   const now = new Date();
   const remainingTime = comingDate.getTime() - now.getTime();
